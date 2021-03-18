@@ -41,7 +41,7 @@ class App extends React.Component {
       <div className="Statistics">
         <Section title={'Please leave feedback'}>
           <FeedbackOptions
-            options={{ good, neutral, bad }}
+            options={this.state}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>

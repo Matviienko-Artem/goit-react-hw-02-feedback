@@ -1,11 +1,16 @@
 .button {
-    width: 100px;
-    height: 30px;
-    text-transform: capitalize;
-    background-color: aqua;
-    border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  text-transform: capitalize;
+  background-color: aqua;
+  border-radius: 5px;
+  transition-duration: 500ms;
+}
+
+.button:hover {
+  background-color: rgb(145, 189, 143);
 }
 
 .button:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
